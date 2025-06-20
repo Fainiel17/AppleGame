@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Apple Game - 사과게임</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        width: 100vw;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* 모바일 터치 스크롤 개선 */
+      * {
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* 모바일에서 확대/축소 방지 */
+      input, select, textarea {
+        font-size: 16px !important;
+      }
+
+      /* 터치 이벤트 최적화 */
+      canvas {
+        touch-action: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-Bpt5T0i0.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bnk8RtQ9.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
